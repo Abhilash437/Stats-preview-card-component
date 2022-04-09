@@ -1,0 +1,96 @@
+body{
+  background-color: hsl(233, 47%, 7%);
+}
+
+.container{
+  background-color: hsl(244, 38%, 16%);
+  margin: 150px auto 150px auto;
+  border-radius: 1%;
+}
+.text{
+  padding: 5% 7%;
+  line-height: 1.5
+}
+.purple{
+  color: hsl(277, 64%, 61%);
+}
+h1{
+  color: white;
+  font-family: "Inter";
+  font-weight: 700;
+  padding: 10px 0;
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Inter"
+}
+
+.achievements{
+  padding-top: 20px;
+}
+
+.atext{
+  font-family: "Lexend Deca";
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+h3{
+  color: white;
+  font-family: "Lexend Deca";
+}
+
+.Image{
+  text-align: right;
+  padding-right: 0;
+}
+
+img{
+  border-top-right-radius: 1%;
+  border-bottom-right-radius: 1%;
+}
+.mobileimg{
+  display: none;
+}
+.pinkbg{
+  position: absolute;
+  height: 447px;
+  width: 540px;
+  right: 60px;
+  background-color: hsl(277, 64%, 61%,40%);
+  border-top-right-radius: 1%;
+  border-bottom-right-radius: 1%;
+}
+.attribution{
+  color: white;
+}
+@media (max-width:990px){
+  .container{
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+  }
+  .mobileimg{
+    text-align: left;
+    display: block;
+  }
+  img{
+    width: 100%;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 1%;
+    border-bottom-right-radius: 0%;
+  }
+  .Image{
+    display: none;
+  }
+  .pinkbg{
+    height: 275px;
+    width: 200%;
+    right: 0.2px;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 1%;
+    border-bottom-right-radius: 0%;
+  }
+  h1,p,h3{
+    line-height: 2;
+  }
+}
